@@ -22,42 +22,6 @@
     <img src="https://img.shields.io/github/contributors/zeon-studio/hugoplate" alt="contributors"></a>
 </p>
 
-## 🎁 What's Included
-
-We have included almost everything you need to start your Hugo project. Let's see what's included in this template:
-
-### 📌 Key Features
-
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
-
-### 📄 15+ Pre-designed Pages
-
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
-
 ### 📦 Tech Stack
 
 - [Hugo](https://gohugo.io/)
@@ -113,16 +77,6 @@ Start the development server using the following command.
 npm run dev
 ```
 
-### 🎬 Still Confused? Watch a Quick Video
-
-https://github.com/zeon-studio/hugoplate/assets/58769763/c260c0ae-91be-42ce-b8db-aa7f11f777bd
-
----
-
-## 📝 Customization
-
-This template has been designed with a lot of customization options in mind. You can customize almost anything you want, including:
-
 ### 👉 Site Config
 
 You can change the site title, base URL, language, theme, plugins, and more from the `hugo.toml` file.
@@ -134,10 +88,6 @@ You can customize all the parameters from the `config/_default/params.toml` file
 ### 👉 Colors and Fonts
 
 You can change the colors and fonts from the `data/theme.json` file. This includes the primary color, secondary color, font family, and font size.
-
-### 👉 Social Links
-
-You can change the social links from the `data/social.json` file. Add your social links here, and they will automatically be displayed on the site.
 
 ---
 
@@ -189,19 +139,4 @@ And if you want to Host some other hosting platforms. then you can build your pr
 
 > **Note:** You must change the `baseURL` in the `hugo.toml` file. Otherwise, your site will not work properly.
 
----
 
-## 🔒 Guide to Staying Compliant
-
-### 🐞 Reporting Issues
-
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/hugoplate/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/hugoplate/issues).
-
-### 📝 License
-
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
-
-**Code License:** Released under the [MIT](https://github.comzeon-studio/hugoplate/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.

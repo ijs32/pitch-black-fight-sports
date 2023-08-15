@@ -7,53 +7,47 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+name = "Striking"
+url = "striking/"
 weight = 2
 
 [[main]]
-name = "Elements"
-url = "elements/"
-weight = 3
+name = "Brazillian Jiu-Jitsu"
+url = "bjj/"
+weight = 2
+
+[[main]]
+name = "Fitness MMA"
+url = "fitness/"
+weight = 2
 
 [[main]]
 weight = 4
-name = "Pages"
+name = "About"
 hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Contact"
-url = "contact/"
+parent = "About"
+name = "Fighters"
+url = "fighters/"
 
 [[main]]
-parent = "Pages"
-name = "Authors"
-url = "authors/"
+parent = "About"
+name = "Coaches"
+url = "coaches/"
 
 [[main]]
-parent = "Pages"
-name = "Categories"
-url = "categories/"
+parent = "About"
+name = "Our Facility"
+url = "facility/"
 
 [[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
-
+parent = "About"
+name = "Schedule"
+url = "schedule/"
 
 # footer menu
 [[footer]]
-name = "About"
-url = "about/"
+name = "Home"
+url = "/"
 weight = 1
-
-[[footer]]
-name = "Elements"
-url = "elements/"
-weight = 2
-
-[[footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
-weight = 3

@@ -3,12 +3,17 @@
     {
       "name": "facebook",
       "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
+      "link": "https://www.facebook.com/PitchBlackFightSports/"
+    },
+    {
+      "name": "instagram",
+      "icon": "fa-brands fa-instagram",
+      "link": "https://www.instagram.com/teampitchblack/"
     },
     {
       "name": "twitter",
       "icon": "fab fa-twitter",
-      "link": "https://twitter.com/"
+      "link": "https://twitter.com/PitchBlackFS"
     }
   ]
 }
