@@ -14,12 +14,12 @@ weight = 2
 [[main]]
 name = "Brazillian Jiu-Jitsu"
 url = "bjj/"
-weight = 2
+weight = 3
 
 [[main]]
 name = "Fitness MMA"
 url = "fitness/"
-weight = 2
+weight = 3
 
 [[main]]
 weight = 4

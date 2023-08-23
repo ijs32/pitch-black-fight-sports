@@ -17,8 +17,6 @@ navbar_fixed = true
 # theme-mode
 theme_switcher = true
 theme_default = "dark" # available options [light/dark/system]
-# Main Sections
-mainSections = ["blog"]
 # contact form action
 contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
@@ -27,7 +25,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-# copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
+copyright = "©2020 Pitch Black Fight Sports"
 
 # Preloader
 [preloader]
@@ -53,40 +51,13 @@ show_categories = true
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+keywords = ["Pitch Black Fight Sports", "MMA", "Wonderboy", "Ray Thompson", "Stephen Thompson", "Karate", "Simpsonville", "UFC"]
+author = "Ian Silber"
 image = "images/og-image.png"
-
-
-# site verifications
-[site_verification]
-google = ""   # Your verification code
-bing = ""     # Your verification code
-baidu = ""    # Your verification code
-facebook = "" # Your verification code
-mastodon = "" # Your verification code
-
-# cookies
-[cookies]
-enable = false
-expire_days = 60
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
 
 ######################## sidebar widgets #########################
 [widgets]
 sidebar = ["categories", "tags"]
-
-
-# google map
-[google_map]
-enable = false
-map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
-
 
 # Subscription
 [subscription]

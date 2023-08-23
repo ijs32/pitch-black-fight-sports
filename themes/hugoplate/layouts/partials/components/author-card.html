@@ -1,11 +1,6 @@
 <div class="bg-theme-light dark:bg-darkmode-theme-light rounded p-8 text-center">
   {{ $image:= .Params.image }}
-  {{ if $image }}
-  {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
-  {{ else if .Params.Email }}
-  <img class="mx-auto mb-6 rounded" alt="{{ .Title }}" height="120" width="120"
-    src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
-  {{ end }}
+  {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mx-auto mb-6 mt-8 rounded w-5/6" "size" "120x120") }}
   <h4 class="mb-3">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h4>
@@ -14,7 +9,7 @@
   </p>
   <ul class="social-icons">
     {{ range .Params.social }}
-    <li>
+    <li class="mt-6">
       <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow">
         <span class="sr-only">{{ .title }}</span>
         <i class="{{ .icon }}"></i>

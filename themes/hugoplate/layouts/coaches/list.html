@@ -1,8 +1,8 @@
 {{ define "main" }}
 
 <section class="section">
-  <div class="container">
-    <div class="row">
+  <div class="container justify-center flex">
+    <div class="row" style="width: 80%;">
       {{ range .RegularPages }}
       <div class="md:col-4 lg:col-12 mb-14">
         {{ partial "components/author-card" . }}
