@@ -22,29 +22,6 @@
     <img src="https://img.shields.io/github/contributors/zeon-studio/hugoplate" alt="contributors"></a>
 </p>
 
-### 📦 Tech Stack
-
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [PostCSS](https://postcss.org/)
-- [PurgeCSS](https://purgecss.com/)
-- [AutoPrefixer](https://autoprefixer.github.io/)
-- [Hugo Modules](https://gohugo.io/hugo-modules/)
-- [Markdown](https://markdownguide.org/)
-- [Prettier](https://prettier.io/)
-- [Jshint](https://jshint.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
-
----
-
-## 🚀 Getting Started
-
-First you need to [clone](https://github.com/zeon-studio/hugoplate) or [download](https://github.com/zeon-studio/hugoplate/archive/refs/heads/main.zip) the template repository, and then let's get started with the following process:
-
 ### ⚙️ Prerequisites
 
 To start using this template, you need to have some prerequisites installed on your machine.
