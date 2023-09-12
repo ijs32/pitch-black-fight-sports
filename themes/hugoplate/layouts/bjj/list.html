@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{ partial "page-header" . }}
+
+
+<!-- Banner -->
+{{ with .Params.banner }}
+<section class="section pt-14">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="col-12">
+        {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto mb-6 mt-8 rounded" "size" "100x") }}
+      </div>
+      <div class="lg:col-10 mt-8 text-center text-lg">
+        <h1 class="mt-4">
+          {{ .title | markdownify }}
+        </h1>
+        <p class="mt-6 bg-white rounded p-12 text-gray-700">
+          {{ .content | markdownify }}
+        </p>
+        {{ with .button }}
+        {{ if .enable }}
+        <a class="btn btn-primary" href="{{ .link | absURL }}">
+          {{ .label }}
+          <i class="fa fa-arrow-right pl-2"></i>
+        </a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
