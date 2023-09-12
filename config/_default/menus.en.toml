@@ -51,3 +51,8 @@ url = "schedule/"
 name = "Home"
 url = "/"
 weight = 1
+
+[[footer]]
+name = "Contact"
+url = "/contact"
+weight = 2
