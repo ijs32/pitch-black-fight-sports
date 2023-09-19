@@ -1,4 +1,5 @@
 ---
+weight: 2
 title: Brad Strain
 image: "/images/coach-brad.png"
 description: Coach Brad Strain

@@ -1,3 +1,3 @@
 ---
-title: "Coaches"
+title: "Fighters"
 ---

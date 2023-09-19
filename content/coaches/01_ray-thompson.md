@@ -1,4 +1,5 @@
 ---
+weight: 1
 title: Ray Thompson
 image: "/images/coach-ray.png"
 description: Coach Ray Thompson

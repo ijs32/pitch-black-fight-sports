@@ -1,6 +1,6 @@
 ---
+weight: 3
 title: Stephen Thompson
-email: williamjacob@email.com
 image: "/images/coach-stephen.png"
 description: Coach Stephen Thompson
 social:
